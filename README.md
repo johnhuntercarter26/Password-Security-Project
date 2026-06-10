@@ -1,7 +1,6 @@
 # Password Security & Cracking Analysis
 
 ## Abstract
-Abstract
 In an era where digital security becomes a larger priority every day, weak passwords remain as one of the largest vulnerabilities in cybersecurity. Despite advancements in authentication methods, users continue to rely on incredibly simple passwords, making them susceptible to attacks. While extensive research exists on password security, there is a gap in practical analysis comparing different password-cracking methods and their effectiveness against varying levels of password complexity.
 
 Passwords are not stored in plaintext; instead, they are saved in a hashed format using cryptographic algorithms such as MD5, SHA-256, and bcrypt. Since hashing is an irreversible process, attackers cannot directly retrieve the original password from the hash and rely on password-cracking tools that attempt to determine the corresponding plaintext password for a given hash. This research evaluates the efficiency of several different methods of password attack, such as dictionary, hybrid, rainbow table, brute force, and credential stuffing. The experiment will take place in a controlled testing environment, where password hashes will be generated and analyzed for their susceptibility to various attack techniques.
